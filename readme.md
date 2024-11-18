@@ -1,17 +1,16 @@
-Supermarket receipt program
+# Supermarket receipt program
 
 Requires g++ and makefile
 
-To run googletests run "make test"
+## Make commands
+- "make test" runs test suite
+- "make checkout" builds program
+- "make clean" cleans build files
 
-To run program run "make checkout" then "./checkout" then follow prompt.
-Barcodes are saved in product catalog csv file.
-You can add to product catalog by following variable types.
-Adding 3+ products that have a BTGO (buy two get one) or Bulk Sale (3+ items
-with the same sale tag) adds an item that marks the sale.
-
-To clean folder run "make clean"
-
-Folders './src' and './tests' contain program source files and test files
-
-Limited by time to complete testing for test_UI and test_productDatabase
+## Program Description
+This program is concept of checking out store products by barcode.
+The products are saved by barcode in the product catalog csv file. 
+The products have a barcode, name, price, bulk deal code, and BTGO (buy two get
+one free) flag. The bulk deal code puts products in a set where every third item is free.
+![Catalog](example_imgs/catalog.png)
+![Checkout](example_imgs/checkout_screen.png)
