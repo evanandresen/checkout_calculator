@@ -1,0 +1,7 @@
+Barcode,Name,Price,BulkSaleCode,BTGO(bool)
+/Comment Line
+123456,Paper Towels,12.29,,1
+745822,Banana,0.35,,1
+543824,Cereal,3.19,Bfast,0
+452390,Oatmeal,6.89,Bfast,0
+325100,Waffles,4.50,Bfast,0
